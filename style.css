@@ -3,7 +3,6 @@ h1 {
     /* font-size: 20px;
     text-align: center;
     background-color: black; */
-    font-family: 'Montseratt';
 }
 
 h3{
@@ -12,7 +11,8 @@ h3{
 }
 
 body {
-    background-color: lightblue
+    background-color: lightblue;
+    font-family: 'Montseratt';
 }
 
 .animation {
