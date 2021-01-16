@@ -1,6 +1,7 @@
 # Building Your Personal Website
 
 HackDavis 2021 Workshop
+https://include-davis.github.io/hackdavis2021workshop/
 
 Resources:
 - HTML Basics
