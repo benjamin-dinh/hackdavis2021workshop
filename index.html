@@ -2,36 +2,38 @@
 <html>
     <head>
         <meta charset = "utf-8">
-        <title> Title for the Website!  </title>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <title> Benjamin's Portfolio Website </title>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
     </head>
 
 
     <body>
-        <h1> Here is your first Header! </h1>
-        <h2> Section Header 1</h2>
-            <li> Bullet Point 1</li>
-            <li> Bullet Point 2</li>
-                <p> Words to make a paragraph <br> Kevin made some edits test</p>
-
-        <br>
-
-        <h2> Links to Other Pages! (If set up) </h2>
-        <section>
-            <div>
-                <a href="page1.html"> Page 1 </a>
+        <section id="navbar">
+            <a id="navbar-name" href="#">🧑‍💻</a>
+            <div class="buttonrow">
+                  <a class="button" href="#">Home</a>
+                  <a class="button" href="about.html">About Me</a>
+                  <a class="button" href="https://www.google.com/">Resume</a>
             </div>
         </section>
-
-        <h3> A Header with a Border! </h3>
-            <p> Try hovering over the element below! </p>
-            <div class="animation"></div>
-            <p> Isn't this cool?</p>
-
-
-        <h2> Another Section </h2>
-        <img src="pic.jpg" style="width:auto; height:325px"> 
+        <section id="work">
+            <div class="projects">
+                <img class="mockupimg" src="assets/example.jpg">
+            </div>
+            <div class="projects">
+                <img class="mockupimg" src="assets/example.jpg">
+            </div>
+            <div class="projects">
+                <img class="mockupimg" src="assets/example.jpg">
+            </div>
+        </section>
+        <section id="footer">
+            <div id = "footermsg">
+                <p>Thanks for visiting my portfolio site! Let's connect ✌️</p>
+                <p>Coded with ☕️ by Benjamin Dinh</p>
+            </div>
+        </section>
 
     </body>
 

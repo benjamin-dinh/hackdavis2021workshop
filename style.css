@@ -1,29 +1,88 @@
-h1 {
-    color: green;
-    /* font-size: 20px;
-    text-align: center;
-    background-color: black; */
+body{
+    font-family:Open Sans;
+    margin:auto;
+    scroll-behavior: smooth;
+}
+#navbar{
+    background-color: #dfdfdf;
+    font-size: 20px;
+    padding: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.buttonrow{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+}
+.button{
+    padding-left:20px;
+    padding-right: 20px;
+    text-decoration:none;
+    color: black;
+}
+#navbar-name{
+    font-size:40px;
+    padding-left:20px;
 }
 
-h3{
-    border-style: double;
-    border-color: coral;
+.row{
+    padding-top: 50px;
+    margin:auto;
+    width: 70vw;
+    display:flex;
+    flex-direction: row;
 }
-
-body {
-    background-color: lightblue;
-    font-family: 'Montserrat', sans-serif;
+.column{
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
 }
-
-.animation {
-    width: 100px;
-    height: 100px;
-    background: blue;
-    transition: width 3s;
+#catimg{
+    object-fit: contain;
+    width: 20vw;
+    border-radius: 30px;
+    box-shadow: 0px 3px 8px 0px #a8a8a8;
 }
-
-div.animation:hover {
-    width: 300px;
+#work{
+    margin:auto;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    padding-top:50px;
+    padding-bottom:50px;
 }
-
-/* Resource for CSS styling basics: https://www.w3schools.com/css/css_intro.asp */
+.projects{
+    display:flex;
+    justify-content: center;
+    margin:auto;
+    width:70vw;
+    padding:50px;
+    align-content: center;
+}
+.mockupimg{
+    width: 50vw;
+    border-radius: 30px;
+    box-shadow: 0px 3px 8px 0px #a8a8a8;
+}
+.mockupimg:hover{
+    transform: scale(1.03);
+    transition: 0.2s;
+}
+#footer{
+    background-color: #dfdfdf;
+    font-size: 20px;
+    padding: 40px;
+}
+.sticky{
+    position:fixed;
+    width:100vw;
+    bottom:0;
+}
+#footermsg{
+    margin:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
